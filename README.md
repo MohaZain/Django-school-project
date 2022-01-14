@@ -36,19 +36,6 @@ locate to `school_project/settings.py`
 Scroll down to `DATABASES` and change it to you'r DB information 
 
 
-### Running the Project
-
- Navigate to `Django-school-project/` directory.
-
-Execute migration to detect any changes to your models.
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-To run the server, execute:
-```bash
-python manage.py runserver
-```
 
 ## API
 
