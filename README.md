@@ -43,7 +43,7 @@ From within the `Django-school-project/` directory.
 
 Ececute migration to detect any changes to your models.
 ```bash
-python manage.py makemigration
+python manage.py makemigrations
 python manage.py migrate
 ```
 To run the server, execute:
