@@ -1,8 +1,7 @@
 # Django-school-project
 
  ### Interductions
-Simple school api build by django, this project have four model's students, instrucator, course, classess 
-to help sign students to there class 
+This project is a simple school API built by Django. It had four models for students, instructors, courses, and classes to help students sign up to their classrooms.
 
  ### Website Link
  [https://school-project-t.herokuapp.com/api/students/](https://school-project-t.herokuapp.com/api/students/)
@@ -27,14 +26,14 @@ pip3 install -r requirements.txt
 This will install all of the required packages selected within the `requirements.txt` file.
 
 4. **Key Dependencies**
- - [Django](https://www.djangoproject.com/)  Django is an advanced Web framework written in Python that makes use of the model view controller (MVC).
+ - [Django](https://www.djangoproject.com/)  is an advanced Web framework written in Python that makes use of the model view controller (MVC).
 
  
 ### Database 
-This project is connected with PostgreSql DB before running the project 
+This Project is connected with PostgreSql DB before running the project 
 locate to `school_project/settings.py`
 
-Scroll down to DATABASES and change it to you'r DB information 
+Scroll down to `DATABASES` and change it to you'r DB information 
 
 
 ### Running the Project
