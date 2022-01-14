@@ -1,6 +1,6 @@
 # Django-school-project
 
- ### Interductions
+ ### Introductions
 This project is a simple School API built by Django. It had four models for students, instructors, courses, and classes to help students sign up to their classrooms.
 
  ### Website Link
