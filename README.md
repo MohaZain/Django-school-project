@@ -1,7 +1,7 @@
 # Django-school-project
 
  ### Interductions
-This project is a simple school API built by Django. It had four models for students, instructors, courses, and classes to help students sign up to their classrooms.
+This project is a simple School API built by Django. It had four models for students, instructors, courses, and classes to help students sign up to their classrooms.
 
  ### Website Link
  [https://school-project-t.herokuapp.com/api/students/](https://school-project-t.herokuapp.com/api/students/)
