@@ -40,7 +40,7 @@ Scroll down to `DATABASES` and change it to you'r DB information
 
  Navigate to `Django-school-project/` directory.
 
-Ececute migration to detect any changes to your models.
+Execute migration to detect any changes to your models.
 ```bash
 python manage.py makemigrations
 python manage.py migrate
