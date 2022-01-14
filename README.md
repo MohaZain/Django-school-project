@@ -29,7 +29,6 @@ This will install all of the required packages selected within the `requirements
 4. **Key Dependencies**
  - [Django](https://www.djangoproject.com/)  Django is an advanced Web framework written in Python that makes use of the model view controller (MVC).
 
- - [PostgreSql](https://www.postgresql.org/) is Open Source Relational Database
  
 ### Database 
 This project is connected with PostgreSql DB before running the project 
