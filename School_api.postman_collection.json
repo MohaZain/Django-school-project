@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "76dce521-2cd9-4379-b49e-861555b78315",
+		"name": "School_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Student CRUD",
+			"item": [
+				{
+					"name": "api/students/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/students/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/students/",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Mahmmod\",\n    \"last_name\": \"mohammed\",\n    \"email\": \"mm11@gmail.com\",\n    \"phone\": \"+966545462978\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/students/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/students/",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"phone\": \"+966545462333\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/students/3",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"students",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/students/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/students/2",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"students",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Instructor CRUD",
+			"item": [
+				{
+					"name": "api/instructors/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/instructors/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"instructors",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/instructors/",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"first_name\": \"khaled\",\n        \"last_name\": \"mohammed\",\n        \"email\": \"somemail@mail.com\",\n        \"phone\": \"+966548785555\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/instructors/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"instructors",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/instructors/",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"phone\": \"+966545555555\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/instructors/1",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"instructors",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/instructors/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/instructors/2",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"instructors",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course CRUD",
+			"item": [
+				{
+					"name": "api/courses/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/courses/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"courses",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/courses/",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Music\",\n    \"description\":\"some other description\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/courses/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"courses",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/courses/",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"description\": \"Art of piano\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/courses/2",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"courses",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/courses/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/courses/2",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"courses",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Classroom CRUD",
+			"item": [
+				{
+					"name": "api/classes/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/classes/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"classes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/classes/",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"student_id\": 4,\n        \"instructor_id\": 1,\n        \"course_id\": 1,\n        \"start_date\": \"2022-03-12\",\n        \"end_date\": \"2022-05-01\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/classes/",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"classes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/classes/",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n        \"start_date\": \"2022-01-12\",\n        \"end_date\": \"2025-02-01\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DJANG}}api/classes/1",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"classes",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/classes/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{DJANG}}api/classes/2",
+							"host": [
+								"{{DJANG}}api"
+							],
+							"path": [
+								"classes",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
